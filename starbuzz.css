@@ -10,6 +10,11 @@ body {
   margin:           10px 10px 0px 10px;
   height:           108px;
 }
+#award{
+  position: absolute;
+  top: 30px;
+  left: 365px;
+}
 #main {
   display: table-cell;
   background:       #efe5d0 url(images/background.gif) top left;
@@ -29,6 +34,7 @@ body {
 }
 
 #footer {
+  position: relative;
   background-color: #675c47;
   color:            #efe5d0;
   text-align:       center;
@@ -41,12 +47,6 @@ body {
   padding-top:      5px;
   padding-bottom:   5px;
   background-color: #675c47;
-}
-#award{
-  position: relative;
-  position: absolute;
-  top: 30px;
-  left: 365px;
 }
 #tableContainer {
   display: table;
